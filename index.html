@@ -36,6 +36,7 @@
 
 
     <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'"  type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -239,36 +240,85 @@
 <body>
 
     <main>
-        <section class="sect-full-lic">
+        <!--section class="sect-full-lic">
             <div class="cont-norm-lic-1">
                 <h1 class="cl-whitee mbo-0">Médico Cirujano</h1>
                 <p class="icon-lic-1 txt-centerr mbo-0"><i class="bi bi-clipboard2-pulse-fill"></i> <i class="bi bi-capsule-pill"></i> <i class="bi bi-heart-pulse-fill"></i></p>
                 <p class="txt-area-1 cl-whitee mbo-0">Área 2: Ciencias Biológicas, Químicas y de la Salud</p>
             </div>
+        </section-->
+
+        <section class="sect-norm-lic">
+            <div class="cont-norm-lic-1">
+               <h1 class="tit-h1 mbo-0"><i class="bi bi-1-circle-fill"></i> MÉDICO CIRUJANO <i class="fa-solid fa-stethoscope"></i></h1> 
+                <p class="txt-top-car mbo-0"><strong>TOP 10</strong> Carreras + demandadaS</p>
+                <p class="txt-ar-car"><i class="fa-solid fa-stethoscope"></i> <strong class="cl-gold">ÁREA 2:</strong> Ciencias Biológicas, Químicas y de la Salud</p>
+            </div>
         </section>
 
         <section class="sect-full-nr">
-            <div class="cont-norm-lic-2 mtb-60">
-                <h2 class="subt-lic txt-centerr mbo-16">Planteles</h2>
+            <div class="cont-norm-lic-2 mbo-60">
+                <p class="txt-aviso-desl mbo-0">Desliza para ver la tabla completa</p>
+                <div class="cont-tab-lic mbo-30">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Plantel</th>
+                                <th>Modalidad</th>
+                                <th>No. de Aspirantes</th>
+                                <th>Lugares disponibles</th>
+                                <th>Aciertos Minimos</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+                            <tr>
+                                <td>Fac. de Medicina</td>
+                                <td>Escolarizado</td>
+                                <td>16,507</td>
+                                <td>176</td>
+                                <td>114</td>
+                            </tr>
+                            <tr>
+                                <td>FES Iztacala</td>
+                                <td>Escolarizado</td>
+                                <td>6,050</td>
+                                <td>100</td>
+                                <td>109</td>
+                            </tr>
+                            <tr>
+                                <td>FES Zaragoza</td>
+                                <td>Escolarizado</td>
+                                <td>4,481</td>
+                                <td>50</td>
+                                <td>109</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <h2 class="subt-lic txt-centerr mbo-16"><i class="bi bi-building-fill"></i> SEDES</h2>
+                
                 <div class="tabs-sed">
                     <img src="img/oferta-academica/icono-desliz.png" alt="">
 
                     <div class="tab-s1 active-tab-s1" onclick="showContentt1(1)">
-                        <i class="bi bi-building-fill"></i> Facultad de Medicina
+                        <i class="bi bi-building-fill"></i> FAC MED
                     </div>
 
                     <div class="tab-s1" onclick="showContentt1(2)">
-                        <i class="bi bi-building-fill"></i> Facultad de Estudios Superiores Iztacala
+                        <i class="bi bi-building-fill"></i> FES IZTACALA
                     </div>
 
                     <div class="tab-s1" onclick="showContentt1(3)">
-                        <i class="bi bi-building-fill"></i> Facultad de Estudios Superiores Zaragoza
+                        <i class="bi bi-building-fill"></i> FES ZARAGOZA
                     </div>
                 </div>
 
                 <div class="content-sed">
                         <div class="tab-cont-sed active-cont-sed" id="contentt1">
-                            <div class="cont-det-lic">
+                            <!--div class="cont-det-lic">
                                 <div class="sc-img-fac">
                                     <img src="img/oferta-academica/fac-medicina.jpg" alt="">
                                 </div>
@@ -283,6 +333,37 @@
                                     <p class="txt-info-det-1 mbo-10"><strong class="cl-blue-r">Promedio minimo (pase reglamentado):</strong> 9.00</p>
                                     <a class="btn-desc-pe" href="#">Plan de estudios</a>
                     
+                                </div>
+                            </div-->
+
+                            <div class="cont-dat-est">
+                                <p class="txt-dat-est-1 cl-blue-r txt-centerr">DATOS ESTADÍSTICOS: <span class="cl-gold">ÚLTIMO CONCURSO DE SELECCIÓN 2025</span> ESCOLARIZADO Y <span class="cl-gold">SUAYED</span></p>
+
+                                <div class="sc-dat-est">
+                                    <div class="box-dat-est">
+                                        <i class="bi bi-people-fill"></i>
+                                        <p class="txt-centerr mbo-0">
+                                            <strong class="cl-gold">16,507</strong>
+                                            <br>
+                                            aspirantes
+                                        </p>
+                                    </div>
+
+                                    <div class="box-dat-est">
+                                        <i class="bi bi-list-check"></i>
+                                        <p class="txt-centerr">
+                                            <strong class="cl-gold">176</strong>
+                                            <br>
+                                            lugares totales disponibles
+                                        </p>
+                                    </div>
+
+                                    <div class="box-dat-est">
+                                        <i class="bi bi-person-check-fill"></i>
+                                        <p class="txt-centerr">
+                                            <strong class="cl-gold">1 de cada 94</strong> <br> logró un lugar 
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
 
@@ -469,7 +550,7 @@
                         </div>
 
                         <div class="tab-cont-sed" id="contentt2">
-                            <div class="cont-det-lic">
+                            <!--div class="cont-det-lic">
                                 <div class="sc-img-fac">
                                     <img src="img/oferta-academica/fes-iztacala.jpg" alt="">
                                 </div>
@@ -485,7 +566,38 @@
                                     <a class="btn-desc-pe" href="#">Plan de estudios</a>
                     
                                 </div>
-                            </div>  
+                            </div-->  
+
+                            <div class="cont-dat-est">
+                                <p class="txt-dat-est-1 cl-blue-r txt-centerr">DATOS ESTADÍSTICOS: <span class="cl-gold">ÚLTIMO CONCURSO DE SELECCIÓN 2025</span> ESCOLARIZADO Y <span class="cl-gold">SUAYED</span></p>
+
+                                <div class="sc-dat-est">
+                                    <div class="box-dat-est">
+                                        <i class="bi bi-people-fill"></i>
+                                        <p class="txt-centerr mbo-0">
+                                            <strong class="cl-gold">6,050</strong>
+                                            <br>
+                                            aspirantes
+                                        </p>
+                                    </div>
+
+                                    <div class="box-dat-est">
+                                        <i class="bi bi-list-check"></i>
+                                        <p class="txt-centerr">
+                                            <strong class="cl-gold">100</strong>
+                                            <br>
+                                            lugares totales disponibles
+                                        </p>
+                                    </div>
+
+                                    <div class="box-dat-est">
+                                        <i class="bi bi-person-check-fill"></i>
+                                        <p class="txt-centerr">
+                                            <strong class="cl-gold">1 de cada 60</strong> <br> logró un lugar 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
                             <div class="cont-acords">
 
@@ -660,7 +772,7 @@
                         </div>
 
                         <div class="tab-cont-sed" id="contentt3">
-                            <div class="cont-det-lic">
+                            <!--div class="cont-det-lic">
                                 <div class="sc-img-fac">
                                     <img src="img/oferta-academica/fes-zaragoza.jpg" alt="">
                                 </div>
@@ -676,7 +788,38 @@
                                     <a class="btn-desc-pe" href="#">Plan de estudios</a>
                     
                                 </div>
-                            </div>   
+                            </div-->   
+
+                            <div class="cont-dat-est">
+                                <p class="txt-dat-est-1 cl-blue-r txt-centerr">DATOS ESTADÍSTICOS: <span class="cl-gold">ÚLTIMO CONCURSO DE SELECCIÓN 2025</span> ESCOLARIZADO Y <span class="cl-gold">SUAYED</span></p>
+
+                                <div class="sc-dat-est">
+                                    <div class="box-dat-est">
+                                        <i class="bi bi-people-fill"></i>
+                                        <p class="txt-centerr mbo-0">
+                                            <strong class="cl-gold">4,481</strong>
+                                            <br>
+                                            aspirantes
+                                        </p>
+                                    </div>
+
+                                    <div class="box-dat-est">
+                                        <i class="bi bi-list-check"></i>
+                                        <p class="txt-centerr">
+                                            <strong class="cl-gold">50</strong>
+                                            <br>
+                                            lugares totales disponibles
+                                        </p>
+                                    </div>
+
+                                    <div class="box-dat-est">
+                                        <i class="bi bi-person-check-fill"></i>
+                                        <p class="txt-centerr">
+                                            <strong class="cl-gold">1 de cada 90</strong> <br> logró un lugar 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                             
                              <div class="cont-acords">
 
