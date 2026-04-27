@@ -208,8 +208,8 @@ h1 {
         width: auto;
         height: auto;
         padding: 8px 12px;
-        background: white;
-        color: #202c56;
+        background: #202c56;
+        color: #ffffff;
         font-size: 16px;
         font-weight: 500;
         border: 1px solid #202c56;
@@ -229,14 +229,14 @@ h1 {
     }
 
     .tab-s1:hover {
-        background-color: #202c56;
-        border: 1px solid #202c56;
+        background-color: #BD8D24;
+        border: 1px solid #BD8D24;
         color: white;
     }
 
     .active-tab-s1 {
-        background: #202c56;
-        border: 1px solid #202c56;
+        background: #BD8D24;
+        border: 1px solid #BD8D24;
         color: white;
         font-weight: 600;
     }
@@ -570,6 +570,147 @@ h1 {
         }
 
 
+      /* nuevos estilos */
+
+      .sect-norm-lic {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 40px auto 40px auto;
+        height: auto;
+        background-color: transparent;
+      }
+
+      .tit-h1 {
+        font-size: 40px;
+        font-weight: 800;
+        padding: 0 !important;
+        text-align: center;
+        color: #202c56;
+      }
+
+      .txt-top-car {
+        font-size: 26px;
+        font-weight: 600;
+        padding: 0 !important;
+        text-align: center;
+        color: #202c56;
+      }
+
+      .txt-ar-car {
+        font-size: 24px;
+        font-weight: 600;
+        padding: 0 !important;
+        text-align: center;
+        color: #202c56;
+      }
+
+      .cont-dat-est {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+      }
+
+      .txt-dat-est-1 {
+        font-size: 22px;
+        font-weight: 700;
+        padding: 0 !important;
+      }
+
+      .sc-dat-est {
+        width: 60%;
+        max-width: 600px;
+        height: auto;
+        padding: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        background-color: transparent;
+      }
+
+      .box-dat-est {
+        width: 32%;
+        max-width: 200px;
+        height: auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+      }
+
+      .box-dat-est:nth-child(2) {
+        margin: 0 16px;
+      }
+
+      .box-dat-est i {
+        font-size: 36px;
+        color: #202c56;
+      }
+
+      .box-dat-est p {
+        font-size: 20px;
+        font-weight: 500;
+        color: #202c56;
+        padding: 0 !important;
+        line-height: 1.2 !important;
+      }
+
+      .cont-tab-lic {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        overflow-x: hidden;
+      }
+
+      .cont-tab-lic table {
+        border-collapse: collapse;
+        width: 80%;
+        max-width: 1000px;
+        margin: 0 auto 0 auto;
+        border-radius: 10px;
+        font-size: 17px;
+      }
+
+      .cont-tab-lic table th, td {
+            border-bottom: 2px solid #BD8D24;
+            padding: 10px;
+            text-align: center;
+        }
+
+      
+
+        .cont-tab-lic thead {
+          margin-bottom: 30px;
+        }
+
+      .cont-tab-lic  table th {
+            background-color: #BD8D24;
+            color: white;
+            border-bottom: none;
+        }
+
+        .cont-tab-lic  table th:first-child {
+            border-radius: 10px 0 0 10px;
+        }
+
+        .cont-tab-lic  table th:last-child {
+            border-radius: 0 10px 10px 0;
+        }
+
+        .cont-tab-lic  table tbody {
+            background-color: #fffaef;
+        }
+
+        .txt-aviso-desl {
+          display: none;
+        }
+
+
         @media (min-width: 0) and (max-width: 899px){
           .sect-full-lic {
               padding: 30px 0;
@@ -587,10 +728,6 @@ h1 {
 
           .txt-area-1 {
               font-size: 16px;
-          }
-
-          .cont-norm-lic-1 {
-              
           }
 
           .subt-lic {
@@ -842,5 +979,110 @@ h1 {
           padding: 0;
           margin: 0 auto;
         }
+
+        /* nuevos estilos */
+        
+      .sect-norm-lic {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 30px auto 30px auto;
+        height: auto;
+        background-color: transparent;
+      }
+
+      .tit-h1 {
+        font-size: 24px;
+       
+      }
+
+      .txt-top-car {
+        font-size: 20px;
+      }
+
+      .txt-ar-car {
+        font-size: 17px;
+       
+      }
+
+      .cont-dat-est {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+      }
+
+      .txt-dat-est-1 {
+        font-size: 17px;
+       
+      }
+
+      .sc-dat-est {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        padding: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        background-color: transparent;
+      }
+
+      .box-dat-est {
+        width: 33%;
+        max-width: 200px;
+        height: auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+      }
+
+      .box-dat-est:nth-child(2) {
+        margin: 0 8px;
+      }
+
+      .box-dat-est i {
+        font-size: 24px;
+      }
+
+      .box-dat-est p {
+        font-size: 16px;
+        
+      }
+
+      .cont-tab-lic {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        overflow-x: auto;
+      }
+
+      .cont-tab-lic table {
+        border-collapse: collapse;
+        width: 700px;
+        font-size: 16px;
+
+      }
+
+      .cont-tab-lic table th, td {
+            border-bottom: 2px solid #BD8D24;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .txt-aviso-desl {
+          display: block;
+          font-size: 12px;
+          padding: 0 !important;
+          text-align: center;
+          color: #9b9b9b;
+        }
+
+
 
         }
